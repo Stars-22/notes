@@ -7,7 +7,7 @@
 - 可尝试用每个短语造句以加深理解
 - 定期复习已学短语
 
-*最后更新: 2025年10月16日 17:15*
+*最后更新: 2025年10月16日 19:29*
 
 ## 📌 短语列表
 
@@ -740,3 +740,138 @@
 - **含义**：开始从事；占据；接受；着手处理；
 - **例句**：`I've decided to take up photography as a new hobby.`
 - **翻译**：我决定把摄影当作一项新爱好来学。
+
+### 147. **work up the energy**
+- **含义**：振作精神，恢复精力，振奋精神
+- **例句**：`I need to work up the energy to go to the gym tonight.`
+- **翻译**：我需要振作精神去健身房了。
+
+### 148. **give a shit**
+- **含义**：关心，在意，在乎
+- **例句**：`He's so rich that he doesn't give a shit about money.`
+- **翻译**：他太有钱了，对钱根本无所谓。
+
+### 149. **settle for**
+- **含义**：满足于；勉强接受，将就
+- **例句**：`I don't want to settle for less than what I deserve.`
+- **翻译**：我不想退而求其次。
+
+### 150. **as long as**
+- **含义**：只要，如果；既然，由于；达...之久
+- **例句**：`As long as you're honest, I don't mind.`
+- **翻译**：只要你诚实，我就没关系。
+
+### 151. **walk away from**
+- **含义**：离开，避开，摆脱；远远超过，轻易地胜过
+- **例句**：`I had to walk away from the toxic relationship.`
+- **翻译**：我不得不离开那个有毒的关系。
+
+### 152. **get stuck**
+- **含义**：陷入困境，被困，被卡住
+- **例句**：`Don't get stuck in a job you hate.`
+- **翻译**：不要困在一份你讨厌的工作里。
+
+### 153. **hang out**
+- **含义**：闲逛，消磨时间；挂出，伸出
+- **例句**：`I like to hang out with my friends at the park.`
+- **翻译**：我喜欢和朋友们在公园里闲逛。
+
+### 154. **rest assured**
+- **含义**：请放心，尽管放心
+- **例句**：`Our customers can rest assured that we use only the highest quality materials.`
+- **翻译**：我们的客户可以放心，我们只使用最优质的材料。
+
+### 155. **wing it**
+- **含义**：即兴发挥，临场应付
+- **例句**：`Don't worry about the script. Let's just wing it and see what happens.`
+- **翻译**：别管剧本了。我们就即兴发挥，看看效果如何。
+
+### 156. **out here**
+- **含义**：在这里，在这方面
+- **例句**：`I'm not sure if I can make it out here.`
+- **翻译**：我不确定自己能不能在这儿待下去。
+
+### 157. **every now and again**
+- **含义**：偶尔，时而，时常，不时
+- **例句**：`I like to go for a run every now and again.`
+- **翻译**：我喜欢偶尔去跑步。
+
+### 158. **serve as**
+- **含义**：作为，充当，担任
+- **例句**：`He serves as the president of the company.`
+- **翻译**：他担任公司的总裁。
+
+### 159. **be willing to do sth.**
+- **含义**：乐意做某事
+- **例句**：`I'm willing to help you with your homework.`
+- **翻译**：我愿意帮你做作业。
+
+### 160. **embark on**
+- **含义**：开始，着手，着手于
+- **例句**：`We're embarking on a new project.`
+- **翻译**：我们开始了一个新项目。
+
+### 161. **all but**
+- **含义**：几乎，差不多；除了...都
+- **例句**：`The ancient city had been all but destroyed by the earthquake.`
+- **翻译**：那座古城在地震中几乎被完全摧毁了。
+
+### 162. **wiggle room**
+- **含义**：活动空间；余地，回旋余地，灵活性
+- **例句**：`I need some wiggle room in my schedule.`
+- **翻译**：我需要在时间表上留出一些余地。
+
+### 163. **account for**
+- **含义**：解释，说明；占...比例；导致，是...的原因；将...考虑进去
+- **例句**：`His dedication ​accounts for​ his rapid promotion.`
+- **翻译**：他的敬业是他快速升职的原因。
+
+### 164. **fall into**
+- **含义**：陷入，陷于；开始；分成；属于
+- **例句**：`I fell into a deep sleep and woke up to the sound of the alarm.`
+- **翻译**：我陷入了深度睡眠，醒来时听到了闹钟声。
+
+### 165. **get it**
+- **含义**：理解，明白，悟到，懂得；得到，获得，接收，拿到；挨骂，受罚
+- **例句**：`I think I get it now.`
+- **翻译**：我想我现在明白了。
+
+### 166. **give up on**
+- **含义**：放弃，对...不再抱希望（心理上的放弃）
+- **例句**：`His teacher never gave up on him, even when he was failing.`
+- **翻译**：他的老师从未放弃过他，即使在他不及格的时候。
+
+### 167. **head to**
+- **含义**：前往，去往，朝向
+- **例句**：`We're heading to the beach for the weekend.`
+- **翻译**：我们计划周末去海滩。
+
+### 168. **deep down**
+- **含义**：内心深处，心底；本质上，实际上，事实上
+- **例句**：`I know deep down that I'm capable of doing better.`
+- **翻译**：我知道，实际上，我能够做得更好。
+
+### 169. **at the cost of**
+- **含义**：以...为代价，以...为牺牲
+- **例句**：`The company's success came at the cost of its employees' well-being.`
+- **翻译**：公司的成功是以牺牲员工的福祉为代价的。
+
+### 170. **take pride in**
+- **含义**：以...为骄傲，自豪于，对...感到得以
+- **例句**：`I take pride in my hard work and dedication.`
+- **翻译**：我为自己的努力和奉献感到自豪。
+
+### 171. **get around to**
+- **含义**：（在处理完其他事情后）终于抽出时间去做某事
+- **例句**：`I finally got around to cleaning the house this weekend.`
+- **翻译**：我终于在这个周末有时间打扫房子了。
+
+### 172. **something tell me**
+- **含义**：我总觉得，直接告诉我，我隐约觉得，我有种感觉
+- **例句**：`Something tells me this isn't going to end well.`
+- **翻译**：​我有种预感，这事不会有好结果。
+
+### 173. **a host of**
+- **含义**：许多，大量，众多
+- **例句**：`A host of people attended the party.`
+- **翻译**：许多人都参加了派对。
