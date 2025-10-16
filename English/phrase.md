@@ -7,7 +7,7 @@
 - 可尝试用每个短语造句以加深理解
 - 定期复习已学短语
 
-*最后更新: 2025年10月5日 16:26*
+*最后更新: 2025年10月16日 17:15*
 
 ## 📌 短语列表
 
@@ -710,3 +710,33 @@
 - **含义**：由于，幸亏，归功于，因为
 - **例句**：`Thanks to your help, I was able to finish the project on time.`
 - **翻译**：多亏了你的帮助，我按时完成了项目。
+
+### 141. **adverse to**
+- **含义**：反对，不赞成，不愿接受
+- **例句**：`I am adverse to the idea of going to the party.`
+- **翻译**：我反对去派对的想法。
+
+### 142. **stress sb. out**
+- **含义**：使...紧张/焦虑/压力大/疲惫不堪/精疲力尽
+- **例句**：`Stop rushing me! You're stressing everyone out!`
+- **翻译**：别催我了！你让大家都紧张得不行！
+
+### 143. **all up**
+- **含义**：总共，合计；完毕，结束，完蛋了
+- **例句**：`When the ammunition ran out, they knew it was all up.`
+- **翻译**：弹药耗尽时，他们知道一切都完了。
+
+### 144. **what was once + 名词**
+- **含义**：曾经是（某物）的东西，往昔的（某物）
+- **例句**：`He had to abandon what was once his greatest dream.`
+- **翻译**：他不得不放弃自己曾经最伟大的梦想。
+
+### 145. **keep doing sth.**
+- **含义**：不断地被告诉，总是有人对我说
+- **例句**：`Even when facing difficulties, we must keep moving forward.`
+- **翻译**：即使面对困难，我们也必须继续前进。
+
+### 146. **take up**
+- **含义**：开始从事；占据；接受；着手处理；
+- **例句**：`I've decided to take up photography as a new hobby.`
+- **翻译**：我决定把摄影当作一项新爱好来学。
