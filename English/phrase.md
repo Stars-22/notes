@@ -7,7 +7,7 @@
 - 可尝试用每个短语造句以加深理解
 - 定期复习已学短语
 
-*最后更新: 2025年10月16日 19:29*
+*最后更新: 2025年10月20日 21:28*
 
 ## 📌 短语列表
 
@@ -875,3 +875,33 @@
 - **含义**：许多，大量，众多
 - **例句**：`A host of people attended the party.`
 - **翻译**：许多人都参加了派对。
+
+### 174. **step out**
+- **含义**：走出，离开，离开工作岗位
+- **例句**：`I decided to step out of my comfort zone and try something new.`
+- **翻译**：我决定走出舒适区，尝试一些新事物。
+
+### 175. **settle into**
+- **含义**：适应，习惯
+- **例句**：`I'm trying to settle into my new job.`
+- **翻译**：我正在努力适应新工作。
+
+### 176. **go forward**
+- **含义**：前进，继续，进行，发生
+- **例句**：`Let's go forward with the project.`
+- **翻译**：让我们继续进行这个项目。
+
+### 177. **make a point to**
+- **含义**：特意去做，重视并确保做某事，把...当作一个要点
+- **例句**：`I make a point to exercise every day.`
+- **翻译**：我每天都特意锻炼。
+
+### 178. **down the line**
+- **含义**：在将来，在未来的某一天；在最后，最终；沿街一直向前；全部地，彻底地
+- **例句**：`I'll let you know down the line.`
+- **翻译**：我会在将来告诉你。
+
+### 179. **vary with**
+- **含义**：随...而变化，照...变化
+- **例句**：`The price of the house varies with the location.`
+- **翻译**：房子的价格随地点而变化。
