@@ -84,6 +84,8 @@ graph TB
 
 ## 3. 类图
 
+### 3.1 主模型类图
+
 ```mermaid
 classDiagram
     class CosyVoice {
@@ -106,6 +108,14 @@ classDiagram
         +inference_instruct2(String tts_text, String instruct_text, String prompt_wav, String zero_shot_spk_id, Bool stream, Float speed, Bool text_frontend) Generator
     }
 
+    CosyVoice <|-- CosyVoice2
+    CosyVoice2 <|-- CosyVoice3
+```
+
+### 3.2 前端处理类图
+
+```mermaid
+classDiagram
     class CosyVoiceFrontEnd {
         +Tokenizer tokenizer
         +FeatureExtractor feat_extractor
@@ -127,7 +137,12 @@ classDiagram
         +frontend_instruct2(String tts_text, String instruct_text, String prompt_wav, Int resample_rate, String zero_shot_spk_id) Dict
         +frontend_vc(String source_speech_16k, String prompt_wav, Int resample_rate) Dict
     }
-    
+```
+
+### 3.3 模型层类图
+
+```mermaid
+classDiagram
     class CosyVoiceModel {
         +Device device
         +LLM llm
@@ -160,19 +175,27 @@ classDiagram
         +token2wav(Tensor token, Tensor prompt_token, Tensor prompt_feat, Tensor embedding, String uuid, Bool finalize, Float speed) Tensor
         +tts(Tensor text, Tensor flow_embedding, Tensor llm_embedding, Tensor prompt_text, Tensor llm_prompt_speech_token, Tensor flow_prompt_speech_token, Tensor prompt_speech_feat, Tensor source_speech_token, Bool stream, Float speed) Generator
     }
-    
+
     class CosyVoice2Model {
         +Int token_hop_len
         +load_jit(String flow_encoder_model) void
         +load_vllm(String model_dir) void
         +token2wav(Tensor token, Tensor prompt_token, Tensor prompt_feat, Tensor embedding, Int token_offset, String uuid, Bool stream, Bool finalize, Float speed) Tensor
     }
-    
+
     class CosyVoice3Model {
         +Int token_hop_len
         +load_vllm(String model_dir) void
     }
 
+    CosyVoiceModel <|-- CosyVoice2Model
+    CosyVoice2Model <|-- CosyVoice3Model
+```
+
+### 3.4 语言模型类图
+
+```mermaid
+classDiagram
     class TransformerLM {
         +Int llm_input_size
         +Int llm_output_size
@@ -196,7 +219,7 @@ classDiagram
         +sampling_ids(Tensor weighted_scores, List decoded_tokens, Int sampling, Bool ignore_eos) Int
         +inference(Tensor text, Tensor text_len, Tensor prompt_text, Tensor prompt_text_len, Tensor prompt_speech_token, Tensor prompt_speech_token_len, Tensor embedding, Int sampling, Float max_token_text_ratio, Float min_token_text_ratio, String uuid) Generator
     }
-    
+
     class Qwen2LM {
         +Int fill_token
         +List stop_token_ids
@@ -207,6 +230,13 @@ classDiagram
         +inference_wrapper(Tensor lm_input, Int sampling, Int min_len, Int max_len, String uuid) Generator
     }
 
+    TransformerLM <|-- Qwen2LM
+```
+
+### 3.5 流模型类图
+
+```mermaid
+classDiagram
     class MaskedDiffWithXvec {
         +Int input_size
         +Int output_size
@@ -223,7 +253,7 @@ classDiagram
         +forward(Dict batch, Device device) Dict
         +inference(Tensor token, Tensor token_len, Tensor prompt_token, Tensor prompt_token_len, Tensor prompt_feat, Tensor prompt_feat_len, Tensor embedding, Tensor flow_cache) Tuple
     }
-    
+
     class CausalMaskedDiffWithXvec {
         +Int token_mel_ratio
         +Int pre_lookahead_len
@@ -231,6 +261,13 @@ classDiagram
         +inference(Tensor token, Tensor token_len, Tensor prompt_token, Tensor prompt_token_len, Tensor prompt_feat, Tensor prompt_feat_len, Tensor embedding, Bool streaming, Bool finalize) Tuple
     }
 
+    MaskedDiffWithXvec <|-- CausalMaskedDiffWithXvec
+```
+
+### 3.6 声码器类图
+
+```mermaid
+classDiagram
     class HiFTGenerator {
         +Int out_channels
         +Int nb_harmonics
@@ -258,12 +295,19 @@ classDiagram
         +forward(Dict batch, Device device) Tuple
         +inference(Tensor speech_feat, Tensor cache_source) Tuple
     }
-    
+
     class CausalHiFTGenerator {
         +List upsample_rates
         +Int conv_pre_look_right
     }
-    
+
+    HiFTGenerator <|-- CausalHiFTGenerator
+```
+
+### 3.7 分词器类图
+
+```mermaid
+classDiagram
     class CosyVoiceTokenizer {
         +Dict special_tokens
         +AutoTokenizer tokenizer
@@ -272,13 +316,16 @@ classDiagram
         +decode(List tokens) String
     }
 
-    CosyVoice <|-- CosyVoice2
-    CosyVoice2 <|-- CosyVoice3
-    CosyVoiceModel <|-- CosyVoice2Model
-    CosyVoice2Model <|-- CosyVoice3Model
-    TransformerLM <|-- Qwen2LM
-    MaskedDiffWithXvec <|-- CausalMaskedDiffWithXvec
-    HiFTGenerator <|-- CausalHiFTGenerator
+    class CosyVoice2Tokenizer {
+        +encode(String text) List
+        +decode(List tokens) String
+    }
+
+    class CosyVoice3Tokenizer {
+        +encode(String text) List
+        +decode(List tokens) String
+    }
+
     CosyVoiceTokenizer <|-- CosyVoice2Tokenizer
     CosyVoice2Tokenizer <|-- CosyVoice3Tokenizer
 ```
