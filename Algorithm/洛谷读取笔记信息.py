@@ -84,4 +84,10 @@ while url:
     output += get_info(url)
     url = input('请输入洛谷题目的url：')
 
-print(output)
+folder_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), datetime.now().strftime("%y.%m"))
+filepath = os.path.join(folder_path, current_date + '.md')
+
+with open(filepath, 'w', encoding='utf-8') as f:
+    f.write(output)
+
+print(f"算法笔记已保存到文件: {filepath}")
